@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.calculator {
+    max-width: 359px;
+    margin: auto;
+}
+
+input.calc-input {
+    display: block;
+    width: 100%;
+    border-radius: 9px;
+    padding: 10px 14px;
+    border: 2px solid #141313;
+    outline: none;
+    font-size: 18px;
+}
+
+.calculator {
+    background: pink;
+    padding: 18px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+button.number {
+    padding: 15px 15px;
+    display: block;
+    background: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 2px 3px;
+    font-weight: bold;
+}
+
+.cal-button {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 13px;
+}
